@@ -1,8 +1,9 @@
-name: ${name}
+name: ${pluginName}
 version: ${version}
 authors: [gmlaxfanatic, Protonull]
 main: com.untamedears.itemexchange.ItemExchangePlugin
-api-version: 1.16
+description: ${description}
+api-version: ${api_version}
 depend: [CivModCore]
 softdepend: [NameLayer, Citadel, JukeAlert]
 permissions:
