@@ -3,12 +3,9 @@ plugins {
 }
 
 dependencies {
-	paperDevBundle("1.18.2-R0.1-SNAPSHOT")
+	paperDevBundle("1.19.3-R0.1-SNAPSHOT")
 
 	compileOnly("net.civmc.civmodcore:CivModCore:2.4.0:dev-all")
-	compileOnly("net.civmc.namelayer:NameLayer:3.1.0:dev")
-	compileOnly("net.civmc.citadel:Citadel:5.1.0:dev")
-	compileOnly("net.civmc.jukealert:JukeAlert:3.1.0:dev")
 
 	compileOnly("org.projectlombok:lombok:1.18.24")
 	annotationProcessor("org.projectlombok:lombok:1.18.24")
